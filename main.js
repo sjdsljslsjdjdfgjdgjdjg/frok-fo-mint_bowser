@@ -1,6 +1,6 @@
 import { fetchPage } from "./fetcher.js";
 import { sanitizeHTML } from "./sanitizer.js";
-import { renderPage } from "./renderer.js";
+import { renderPage } from "./app.js";
 
 const input = document.getElementById("urlInput");
 const button = document.getElementById("goBtn");
